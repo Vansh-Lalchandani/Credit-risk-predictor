@@ -6,10 +6,9 @@ A machine learning project that predicts whether a loan applicant is likely to d
 
 ## 📁 Files in This Repo
 
-- `Main_training.ipynb` → The main Jupyter notebook with data loading, preprocessing, training, evaluation, and final predictions.
+- `Main_training_.ipynb` → The main Jupyter notebook with data loading, preprocessing, training, evaluation, and final predictions.
 - `train.csv` → The training dataset used to build the model.
 - `test.csv` → The test dataset used for final model predictions.
-- `final_predictions.csv` → Output file with predictions made on the test dataset.
 - `README.md` → This file you’re reading.
 
 ---
@@ -24,7 +23,7 @@ The datasets contain anonymized information about loan applicants:
 - Debt-to-income ratio
 - And more...
 
-🔍 Size: ~30MB  
+🔍 Size: ~31MB `train.csv` ~15MB `test.csv`
 📄 Format: CSV
 
 ---
@@ -66,7 +65,7 @@ model = RandomForestClassifier(n_estimators=10, max_depth=5, max_features='sqrt'
 
 ## 🔮 Final Predictions on Test Data
 
-After training, the model was used to predict on a separate test dataset (`test.csv`). Predictions are saved to `final_predictions.csv`.
+After training, the model was used to predict on a separate test dataset (`test.csv`).
 
 ---
 
@@ -81,7 +80,7 @@ After training, the model was used to predict on a separate test dataset (`test.
 ## 📌 How to Run
 
 1. Clone this repo
-2. Open `Main_training.ipynb` in Jupyter
+2. Open `Main_training_.ipynb` in Jupyter
 3. Run the cells step by step
 
 > Note: Running heavy models locally may cause Jupyter to crash. You can run the notebook on **Google Colab** or **Kaggle** for better performance.
